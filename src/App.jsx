@@ -16,7 +16,7 @@ const App = () => {
       <Navbar setShowLogin={setShowLogin}/>
       
       <Routes>
-        <Route path='/F00d_delivery' element={<Home/>}/>
+        <Route path='/F00d_delivery/' element={<Home/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/order' element={<PlaceOrder/>}/>
